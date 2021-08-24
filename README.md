@@ -1,5 +1,5 @@
 # URL-Shortner-REST-service-Py
-basic URL shortener RESTfull service using Flask
+basic URL shortener RESTfull service using Flask, tested with Python 3.9.0
 
 How to run:
 py UrlShortnerSrv.py
