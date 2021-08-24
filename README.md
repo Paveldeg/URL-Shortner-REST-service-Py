@@ -12,14 +12,15 @@ Sample req/response:
 http://127.0.0.1:5000/getshorturl/aHR0cHM6Ly9teWhvc3Q6ODA4MC8vcnRyL3J0eXJ0eS9yZXRldGV0ZWUvNDU2NDU2NC80NTY0NjQ1NjUzNDM0
 
 {
-    "url": "https://myhost:8080/L3J0ci9ydHlydHkvcmV0ZXRldGVlLzQ1NjQ1NjQvNDU2NDY0NTY1MzQzNA=="
+    "url": "https://myhost:8080/2378"
 }
+
  
 2. to get full version of a shortened URL - Invoke "http://127.0.0.1:5000/getfullurl/[url]" from a browser, 
-substitute [url] with a BASE64 UTF-8 encoded URL.
+substitute [url] with a BASE64 UTF-8 encoded URL from above response.
 
 Sample req/response:
-http://127.0.0.1:5000/getfullurl/aHR0cHM6Ly9teWhvc3Q6ODA4MC9MM0owY2k5eWRIbHlkSGt2Y21WMFpYUmxkR1ZsTHpRMU5qUTFOalF2TkRVMk5EWTBOVFkxTXpRek5BPT0=
+http://127.0.0.1:5000/getfullurl/aHR0cHM6Ly9teWhvc3Q6ODA4MC8yMzc4Cg==
 
 {
     "url": "https://myhost:8080//rtr/rtyrty/retetetee/4564564/4564645653434"
