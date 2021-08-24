@@ -52,7 +52,7 @@ class GetFullUrl(Resource):
 
 '''    
 This code will need to have proper URL validation and error handling, and handling of query parameters/fragments
-a URL must is passed to the service base64 encoded 
+a URL passed to the service must be base64 encoded 
 '''     
 class GetShortUrl(Resource):   
     
